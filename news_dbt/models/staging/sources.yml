@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: public
+    database: news_db
+    schema: public
+    tables:
+      - name: fact_news
+      - name: dim_source
+      - name: dim_author
+      - name: dim_time
